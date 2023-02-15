@@ -25,11 +25,25 @@ class CoffeeItem {
         image: 'assets/images/coffee/GLASS-0.png',
         price: 2.0),
     CoffeeItem(
-        id: '2',
-        name: 'Iced Caffè Mocha',
+        id: '5',
+        name: 'Chai Frappuccino',
         description:
-            'What more could you want from a summertime treat? Espresso, bittersweet mocha sauce poured over ice and topped with rich, sweetened whipped cream. Delightful. The real question is what to call it, coffee or dessert?',
-        image: 'assets/images/coffee/GLASS-1.png',
+            'In many parts of the world, chai simply means tea, but in North America the word has come to be shorthand for masala chai, a traditional Indian spiced tea like the one offered by Tazo.',
+        image: 'assets/images/coffee/GLASS-4.png',
+        price: 6.0),
+    CoffeeItem(
+        id: '4',
+        name: 'Iced Caramel Macchiato',
+        description:
+            'To our bold espresso we add a creamy mix of vanilla syrup and cold milk poured over ice; it\'s then topped with our proprietary buttery caramel sauce. Sweet! And, fret not, this ever-popular beverage is here to stay.',
+        image: 'assets/images/coffee/GLASS-3.png',
+        price: 5.0),
+    CoffeeItem(
+        id: '9',
+        name: 'Batch Brew',
+        description:
+            'Back home in our tasting room, we take these amazing coffees and mix them with beans from other regions. That\'s how we create some of our most famous blends.',
+        image: 'assets/images/coffee/GLASS-8.png',
         price: 3.0),
     CoffeeItem(
         id: '3',
@@ -39,19 +53,12 @@ class CoffeeItem {
         image: 'assets/images/coffee/GLASS-2.png',
         price: 4.0),
     CoffeeItem(
-        id: '4',
-        name: 'Iced Caramel Macchiato',
+        id: '2',
+        name: 'Iced Caffè Mocha',
         description:
-            'To our bold espresso we add a creamy mix of vanilla syrup and cold milk poured over ice; it\'s then topped with our proprietary buttery caramel sauce. Sweet! And, fret not, this ever-popular beverage is here to stay.',
-        image: 'assets/images/coffee/GLASS-3.png',
-        price: 5.0),
-    CoffeeItem(
-        id: '5',
-        name: 'Chai Frappuccino',
-        description:
-            'In many parts of the world, chai simply means tea, but in North America the word has come to be shorthand for masala chai, a traditional Indian spiced tea like the one offered by Tazo.',
-        image: 'assets/images/coffee/GLASS-4.png',
-        price: 6.0),
+            'What more could you want from a summertime treat? Espresso, bittersweet mocha sauce poured over ice and topped with rich, sweetened whipped cream. Delightful. The real question is what to call it, coffee or dessert?',
+        image: 'assets/images/coffee/GLASS-1.png',
+        price: 3.0),
     CoffeeItem(
         id: '6',
         name: 'Cappuccino',
@@ -73,12 +80,5 @@ class CoffeeItem {
             'We created this wondrously decadent beverage for those who love the taste of chocolate - and lots of it -  with their iced coffee. Rich, chocolatey chips punctuate a cool, refreshing blend of coffee and mocha flavours.',
         image: 'assets/images/coffee/GLASS-7.png',
         price: 2.0),
-    CoffeeItem(
-        id: '9',
-        name: 'Batch Brew',
-        description:
-            'Back home in our tasting room, we take these amazing coffees and mix them with beans from other regions. That\'s how we create some of our most famous blends.',
-        image: 'assets/images/coffee/GLASS-8.png',
-        price: 3.0),
   ];
 }
