@@ -144,6 +144,7 @@ class TreatsListWidgetState extends State<TreatsListWidget> {
               controller: _treatsController,
               scrollDirection: Axis.vertical,
               itemCount: TreatItem.mockItems.length + 1,
+              scrollBehavior: WindowsScrollBehaviour(),
               itemBuilder: (context, index) {
                 if (index == 0) {
                   // HEADINGS HERE Would be great
